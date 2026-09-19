@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#F5F1E8"/>
+  <g fill="none" stroke="#C9A857" stroke-width="1.5" opacity="0.8">
+    <path d="M150 150 L200 130 L250 150 L230 150 L200 130 L170 150 Z"/>
+    <path d="M150 150 L120 190 L200 260 L280 190 L250 150"/>
+    <path d="M170 150 L140 190 L200 260"/>
+    <path d="M230 150 L260 190 L200 260"/>
+    <path d="M170 150 L200 190 L230 150"/>
+    <path d="M140 190 L260 190"/>
+  </g>
+  <text x="200" y="300" text-anchor="middle" font-family="Georgia, serif" font-size="13" letter-spacing="2" fill="#A6873F">
+    SS CREATION
+  </text>
+</svg>

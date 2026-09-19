@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ivory text-charcoal font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+  ::selection {
+    @apply bg-champagne/30 text-charcoal;
+  }
+  :focus-visible {
+    outline: 2px solid #C9A857;
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply text-xs uppercase tracking-wide2 text-champagne-dark font-semibold;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center bg-charcoal text-ivory px-7 py-3 text-sm uppercase tracking-wide2 hover:bg-emerald transition-colors duration-300;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center border border-charcoal text-charcoal px-7 py-3 text-sm uppercase tracking-wide2 hover:bg-charcoal hover:text-ivory transition-colors duration-300;
+  }
+  .facet-divider {
+    @apply relative flex items-center justify-center my-2;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Hero slider pagination dots — Swiper's default bullets restyled to
+   match the premium champagne/navy palette (see components/HeroSlider.tsx) */
+.hero-dots .swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+  background: rgba(250, 247, 241, 0.5);
+  opacity: 1;
+  margin: 0 4px !important;
+  transition: all 0.25s ease;
+}
+.hero-dots .swiper-pagination-bullet-active {
+  background: #C9A857;
+  width: 20px;
+  border-radius: 9999px;
+}
+
+/* Hides the scrollbar on the horizontally-scrollable circular category
+   rail (components/CategoryGrid.tsx) on mobile, while keeping it
+   swipeable with touch/trackpad. */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

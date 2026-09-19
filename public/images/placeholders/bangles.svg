@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#F5F1E8"/>
+  <g fill="none" stroke="#C9A857" stroke-width="6" opacity="0.85">
+    <circle cx="200" cy="210" r="80"/>
+  </g>
+  <g fill="none" stroke="#C9A857" stroke-width="1.5" opacity="0.85">
+    <circle cx="200" cy="210" r="80"/>
+  </g>
+  <text x="200" y="330" text-anchor="middle" font-family="Georgia, serif" font-size="13" letter-spacing="2" fill="#A6873F">SS CREATION</text>
+</svg>

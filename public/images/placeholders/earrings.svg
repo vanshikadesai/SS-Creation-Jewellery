@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#F5F1E8"/>
+  <g fill="none" stroke="#C9A857" stroke-width="1.5" opacity="0.85">
+    <circle cx="150" cy="140" r="16"/>
+    <path d="M150 156 L150 190 Q150 230 130 260 Q150 280 170 260 Q150 230 150 190"/>
+    <circle cx="250" cy="140" r="16"/>
+    <path d="M250 156 L250 190 Q250 230 230 260 Q250 280 270 260 Q250 230 250 190"/>
+  </g>
+  <text x="200" y="330" text-anchor="middle" font-family="Georgia, serif" font-size="13" letter-spacing="2" fill="#A6873F">SS CREATION</text>
+</svg>
