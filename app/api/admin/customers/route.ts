@@ -2,6 +2,7 @@ import { NextRequest } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { requireAdmin } from "@/lib/auth";
 import { apiError, ok } from "@/lib/api-utils";
+export const dynamic = 'force-dynamic'
 
 // GET /api/admin/customers — every CUSTOMER-role user, with order count
 // and lifetime spend computed straight from the same `orders` table the
