@@ -3,6 +3,7 @@ import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { requireAuth } from "@/lib/auth";
 import { apiError, ok } from "@/lib/api-utils";
+export const dynamic = "force-dynamic";
 
 const UpdateSchema = z.object({
   label: z.string().min(1).max(30).optional(),
